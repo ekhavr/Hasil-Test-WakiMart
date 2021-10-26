@@ -1,0 +1,1 @@
+SELECT * FROM product INNER JOIN promo ON product.id = promo.id INNER JOIN harga_promo ON product.id = harga_promo.id
